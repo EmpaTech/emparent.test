@@ -287,6 +287,10 @@ a:focus {
   margin-bottom: 35px;
 }
 
+.service_section.heading_container1 {
+  margin-top:0px;
+}
+
 .service_section .heading_container .empa_gral {
   margin-top: 40px;
 }
@@ -304,6 +308,14 @@ a:focus {
 .service_section .img-container .img-box img {
   width: 100%;
 }
+
+#garantiza-clientes {
+  width: 680px;  
+  display: block;  
+  text-align: center;
+}
+
+
 
 .service_section .row {
   -webkit-box-align: center;
@@ -531,8 +543,9 @@ iframe {
 }
 
 #mapa {
-  position: relative;
-  padding-top: 20px;
+  position: absolute;
+  left: 70px;
+  top: 50px;
 }
 
 .contact_section .container-bg {
@@ -800,86 +813,256 @@ iframe {
 }
 
 /* end footer section*/
-/*# sourceMappingURL=style.css.map */
-
-/* portfolio section*/
-.portfolio_container {
-  padding: 20px;
-  text-align: center;
-}
-
-.portfolio_container h2 {
-  color: #000;
-  font-weight: bold;
-  text-transform: uppercase;
-
-}
-
-/* form section*/
-
-.wrapper p h1 h2 h3 h4 h5 h6 {
-  margin: 0;
-  color:#666;
-}
-
-.wrapper {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  box-shadow: 1px 1px 3px #eee inset;
-}
-
-.inner {
-  min-width: 550px;
-  margin: auto;
-  padding-top: 68px;
-  padding-bottom: 48px;
-}
-
-.inner h3 {
-  text-transform: uppercase;
-  font-size: 22px;
-  margin-bottom: 32px;
-  text-align: center;
-  color:#333;
-  letter-spacing: 2px;
-}
-
-.inner input textarea select {
-  color: #333;
-}
-
-.wrapper .inner header {
-  font-size: 25px;
-  background-color: #157dc2;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  border: 1px solid #157dc2;
-  border-radius: 60px;
-}
 
 
-form {
-  width: 50%
-  padding-left: 45px;
-}
+/* Demo section*/
 
-form button {
-  background: orange;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  width: 150px;
-  text-align: center;
-}
+  #EmpaRent_-_Demo {
+    position: relative;
+    width: 1500px;
+    height: 1080px;   
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: EmpaRent - Demo;
+    --web-view-id: EmpaRent_-_Demo;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+  }
+  #demo-info-container {
+    position: absolute;
+    width: 1409px;
+    height: 779px;
+    left: 70px;
+    top: 151px;
+    overflow: visible;
+  }
+  #Form {
+    position: absolute;
+    width: 548px;
+    height: 594px;
+    left: 859px;
+    top: 185px;
+    overflow: visible;
+  }
+  #Form_content {
+    position: absolute;
+    width: 548px;
+    height: 594px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #form-container {
+    fill: rgba(0,127,197,1);
+  }
+  .form-container {
+    filter: drop-shadow(3px 3px 10px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 578px;
+    height: 624px;
+    left: 0px;
+    top: 0px;
+  }
+  #Send_button {
+    position: absolute;
+    width: 134px;
+    height: 44px;
+    left: 180px;
+    top: 480px;
+    overflow: visible;
+  }
+  #Send-button {
+    fill: rgba(64,64,64,1);
+  }
+  .Send-button {
+    position: absolute;
+    overflow: visible;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+  }
+  #ENVIAR {
+    left: 36px;
+    top: 10px;
+    position: absolute;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+  }
+  #input_spaces {
+    position: absolute;
+    width: 486px;
+    height: 450px;
+    left: 31px;
+    top: 45px;
+    overflow: visible;
+  }
+  #Info-input {
+    fill: rgba(255,255,255,1);
+  }
+  .Info-input {
+    position: absolute;
+    overflow: visible;
+    width: 486px;
+    height: 159px;
+    left: 0px;
+    top: 291px;
+  }
+  #Phone-input {
+    fill: rgba(255,255,255,1);
+  }
+  .Phone-input {
+    position: absolute;
+    overflow: visible;
+    width: 486px;
+    height: 52px;
+    left: 0px;
+    top: 194px;
+  }
+  #Mail-input {
+    fill: rgba(255,255,255,1);
+  }
+  .Mail-input {
+    position: absolute;
+    overflow: visible;
+    width: 486px;
+    height: 52px;
+    left: 0px;
+    top: 97px;
+  }
+  #Space-input {
+    fill: rgba(255,255,255,1);
+    width: 486px;
+  }
+  
+  #input_types {
+    position: absolute;
+    width: 253px;
+    height: 316px;
+    left: 31px;
+    top: 26px;
+    overflow: visible;
+  }
+  #Qu_tipo_de_equipo_rentas {
+    left: 0px;
+    top: 291px;
+    position: absolute;
+    overflow: visible;
+    width: 254px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+  }
+  #Telfono {
+    left: 0px;
+    top: 194px;
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+  }
+  #Correo_electrnico {
+    left: 0px;
+    top: 97px;
+    position: absolute;
+    overflow: visible;
+    width: 168px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+  }
+  #Nombre {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 74px;
+    white-space: nowrap;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+  }
+  #empa-capt {
+    position: absolute;
+    width: 791px;
+    height: 370px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+  }
+  #Descubre_lo_que_EmpaRent_tiene {
+    left: 857px;
+    top: 98px;
+    position: absolute;
+    overflow: visible;
+    width: 553px;
+    height: 67px;
+    line-height: 30px;
+    margin-top: -6px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(86,86,86,1);
+  }
+  #CONOCE_LAS_VENTAJAS_DE_NUESTRO {
+    left: 859px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 549px;
+    white-space: nowrap;
+    line-height: 40px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(16,16,16,1);
+  }
+  #Globo-ventajas {
+    position: absolute;
+    width: 845px;
+    height: 381px;
+    left: 0px;
+    top: 398px;
+    overflow: hidden;
+  }
 
-.form-control {
-  border-color: #9c9c9c;
-}
-
-#garantiza-clientes {
-  padding: 0 200px;
